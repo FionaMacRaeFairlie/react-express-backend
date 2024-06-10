@@ -39,12 +39,10 @@ function Search({ details }) {
                 onChange = {handleChange}
               />  
               </div>
-  <div className="col-sm">
-     
-    </div>
+
     <div className="col-sm">
       
-    </div></div>
+    </div> </div>
   
             {searchList()}
             </div> 

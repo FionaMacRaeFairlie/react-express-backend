@@ -1,7 +1,8 @@
 import datasource from "./components/data.js";
 import { useEffect, useState, useCallback } from "react";
 import Search from "./components/Search";
- 
+import ShowOne from "./components/ShowOne.js"; 
+
 function App() {
   const [ entryList, setEntryList ] = useState([{
     "subject": "",
@@ -33,6 +34,7 @@ function App() {
  return (
     <div className="App">
      <Search details={entryList}/>
+     {/* <ShowOne details={entryList}/> */}
     </div>
   );
 }

@@ -12,6 +12,7 @@ const Entry = ({entry}) => {
                         </p>
                         <div className="card-footer">
                             <p>Written by {entry.author} , on {entry.published}</p>
+                            
                         </div>
                 </div>
         </div>
